@@ -1,0 +1,690 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+body{ 
+	margin:0px;
+	padding:0px;
+}
+img{width:100%;}
+
+section#topbar {
+    background: #f4f5f5;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    font-family: arial;
+    font-size: 11px;
+}
+.phone {
+    padding: 10px 10px;
+    border-left: 1px solid #d4d4c7;
+    border-right: 1px solid #d4d4c7;
+}
+
+i.fas.fa-phone {color: #ff5200;padding: 0px 5px;}
+.email {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 496px;
+    border-right: 1px solid #d4d4c7;
+}
+i.fas.fa-envelope {
+    color: #ff5200;
+    padding-right: 5px;
+}
+.email a {
+    text-decoration: none;
+    color: black;
+}
+i.fab.fa-facebook {
+    padding: 10px;
+	border-right: 1px solid #d4d4c7;
+}
+i.fab.fa-twitter {
+    padding: 10px;
+	border-right: 1px solid #d4d4c7;
+}
+i.fab.fa-linkedin-in {
+    padding: 10px;
+	border-right: 1px solid #d4d4c7;
+}
+.social a{
+	text-decoration: none;
+    color: black;
+	transition:0.3s;
+}
+.social a:hover i {
+    color: #ff5200;
+}
+section.optionbar {
+    width: 100%;
+}
+.optiondiv {
+    width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.be {
+    float: left;
+	overflow: hidden;
+    text-decoration: none;
+    font-size: 32px;
+    font-family: arial black;
+    padding: 20px 0px;
+}
+
+.opber {
+    float: right;
+}
+.op {
+    float: left;
+    padding: 30px 0px 30px 40px;
+}
+.op a {
+    text-decoration: none;
+    color: black;
+    font-family: Oswald,sans-serif;
+    font-weight: 500;
+    font-size: unset;
+    transition: 0.3s;
+}
+i.fas.fa-chevron-up {
+    transform: rotate(180deg);
+    font-size: small;
+    margin-left: 5px;
+}
+.op a:hover {
+    color: #ff5200;
+}
+.serviceop {
+    position: absolute;
+    width: 220px;
+    background: white;
+    top: 117px;
+    right: 620px;
+    padding: 25px;
+    transform: scaleY(0);
+    transform-origin: top;
+    border-top: solid 2px blanchedalmond;
+    visibility: hidden;
+    transition: 0.4s;
+}
+.op:hover .serviceop{
+	visibility:visible;
+	transform:scaleY(1);
+}
+.service {
+    padding: 0px 0px 10px 0px;
+	transition:0.5s;
+}
+.service:hover {
+    padding: 0px 0px 10px 20px;
+}
+.service:last-child {
+    padding-bottom: 0px;
+}
+.service a {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+	color: #585555;
+	position:relative;
+}
+
+.service a:before {
+    content: "";
+    width: 0px;
+    height: 2px;
+    display: inline-block;
+    position: absolute;
+    background: #ff5200;
+    left: -28px;
+    top: 7px;
+	transition:0.6s;
+}
+.service:hover a:before{
+	width:20px;
+}
+.b {
+    float: left;
+    color: #ff5200;
+}
+
+.e {
+    float: right;
+    color: black;
+}
+section.imag1section {
+    background: url(Image/1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.imag1sectiondiv {
+    width: 1000px;
+    margin: auto;
+    padding: 70px;
+}
+.imag1sectionbiglatter {
+    font-family: Oswald,sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    width: 470px;
+    color: white;
+}
+.imag1sectionsmalllatter {
+    font-family: arial;
+    font-size: small;
+    color: white;
+    width: 350px;
+    padding: 20px 0px;
+}
+.imag1sectiontab input[type="submit"] {
+    padding: 10px 25px;
+    background: #ff5200;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-family: Oswald,sans-serif;
+}
+section.blok1section {
+    background: #f5f5f4;
+}
+.allblok1div {
+    width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.blok1div {
+    width: 231.25px;
+    background: white;
+    text-align: center;
+    float: left;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-right: 25px;
+	transition:0.3s;
+}
+.blok1div a {
+    text-decoration: none;
+    color: black;
+}
+.fontblok1div {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: 40px;
+    color: #ff5200;
+}
+.text1blok1div {
+    font-family: Oswald,sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+.text2blok1div {
+    font-family: monospace;
+    padding: 15px 5px;
+}
+.text3blok1div {
+    padding-bottom: 40px;
+    padding-top: 10px;
+    color: #ff5200;
+}
+
+i.fas.fa-chevron-right {
+    color: #ff5200;
+    font-size: small;
+}
+.blok1div:hover{
+	background:#ff5200;
+}
+.blok1div a:hover {
+    color: white;
+}
+.blok1div :hover i{
+    color: white;
+}
+.blok1div :hover .text3blok1div{
+    color: white;
+}
+section.textimgsection {
+    background: linear-gradient( 
+180deg
+ , #ffffff00, #34343542);
+    padding: 80px 0px;
+}
+.textimgcontener {
+    width: 1000px;
+    margin: auto;
+	overflow:hidden;
+}
+.imgdiv {
+    width: 530px;
+    float: left;
+    border: none;
+}
+.textdiv {
+    width: 400px;
+    float: right;
+}
+.bigtext {
+    font-family: Oswald,sans-serif;
+    font-size: 40px;
+    font-weight: 500;
+	padding-bottom:10px;
+}
+.smalltext {
+    font-family: system-ui;
+}
+.erotext {
+    width: 350px;
+    overflow: hidden;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 25px 0px;
+}
+.erotext i {
+    padding-right: 10px;
+}
+.lefterotext {
+    float: left;
+}
+.righterotext {
+    float: right;
+}
+input[type="submit"] {
+    padding: 10px 25px;
+    background: #ff5200;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    font-family: Oswald,sans-serif;
+}
+section.countimgsection {
+    background: linear-gradient(#00000087,#00000087),url(Image/3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 60px 0px;
+}
+.countimgdiv {
+    width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.countdiv {
+    width: 200px;
+    text-align: center;
+    color: white;
+    float: left;
+    padding-right: 66.66px;
+	transition:0.2s;
+}
+.countdiv:hover {
+    color: #ff5200;
+}
+.counti {
+    font-size: 60px;
+}
+.count {
+    font-size: 46px;
+    font-family: 'Oswald';
+    font-weight: 800;
+    padding-top: 10px;
+}
+.countw {
+    font-family: 'Oswald';
+    font-size: 20px;
+}
+section.imgblogsection {
+    background: white;
+    padding: 80px 0px;
+    border-bottom: 2px solid bisque;
+}
+.imgblogdiv {
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+.textimgblogdiv {
+    position: relative;
+    text-align: center;
+}
+.bigtextimgblogdiv {
+    font-family: 'Oswald';
+    font-size: 40px;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+.redlineimgblogdiv {content: "";
+	border-bottom: solid red;
+	width: 50px;
+	position: absolute;
+	left: 480px;
+}
+.smalltextimgblogdiv {
+    font-family: arial;
+    padding: 12px 250px;
+    color: #585655;
+}
+.picimgblogdivcontenar {
+    overflow: hidden;
+}
+.picimgblogdiv {
+    width: 223px;
+    float: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 36px;
+	position: relative;
+}
+
+.picimgblog img {
+    width: 223px;
+    height: 175px;
+}
+.bigteximgblog {
+    font-family: 'Oswald';
+    font-weight: 500;
+    text-align: left;
+    padding: 10px 0px;
+}
+.smallteximgblog {
+    font-family: arial;
+    color: #656262;
+    text-align: left;
+}
+section.dollarcountblogsection {
+    background: aliceblue;
+	padding: 80px 0px;
+}
+.dollarcountblogalldiv {
+    width: 1000px;
+    margin: auto;
+}
+.dollarcountblog1mdiv {
+    background: #ececec73;
+    padding: 10px 25px;
+    overflow: hidden;
+}
+.dollarcountblogdiv {
+    background: white;
+    width: 250px;
+    border-radius: 3px;
+	padding:25px;
+	float:left;
+	margin-right:25px;
+}
+.bigtexdollarcount {
+    font-family: 'Oswald';
+    font-size: 25px;
+    font-weight: 500;
+    padding: 10px 0px;
+}
+.dollaramount {
+    overflow: hidden;
+	padding-bottom:15px;
+}
+
+.dollar {
+    float: left;
+    font-family: arial;
+    font-size: 40px;
+    font-weight: 600;
+    padding: 0px 2px 0px 0px;
+}
+.md {
+    padding-top: 13px;
+    font-family: arial;
+    font-weight: 800;
+    font-size: 20px;
+}
+.list {
+    padding-bottom: 20px;
+}
+.signe {
+    font-family: arial;
+    color: #757171;
+    font-size: small;
+    padding: 10px 0px;
+}
+.signe i {
+    color: red;
+    font-size: 10px;
+    padding-right: 10px;
+}
+section.checkoutimgsection {
+    overflow: hidden;
+}
+.checkoutimgdiv1 {
+    float: left;
+}
+.checkoutimgdiv1 img {
+    width: 932px;
+    height: 401px;
+}
+.checkoutimgdiv2 {
+    width: 869px;
+    float: right;
+    padding: 51px;
+    background: #211e1e;
+    color: white;
+}
+.checkoutimgdiv1 img {
+    width: 932px;
+    height: 401px;
+}
+.checkoutimgnormaltextdiv h1 {
+    font-family: 'Oswald';
+    font-size: 30px;
+}
+.checkoutimgnormaltextdiv p {
+    font-family: arial;
+    font-size: 15px;
+}
+.checkoutabletextdiv {
+    overflow: hidden;
+}
+
+.checkoutimgtabletextdiv {float: left;}
+
+.checkoutimgtabletext1div {
+    overflow: hidden;
+    width: 300px;
+    padding-top: 30px;
+}
+
+.checkoutimgtabletext1divicon {
+    float: left;
+    width: 70px;
+    color: #ff5200;
+    font-size: 50px;
+}
+
+.checkoutimgtabletext1divbigtext {font-family: 'Oswald';font-size: 20px;float: left;padding-left: 20px;padding-bottom: 10px;}
+
+.checkoutimgtabletext1divsmalltext {font-family: sans-serif;float: left;padding-left: 20px;font-size: 14px;}
+.checkoutimgtabletext2div {
+    float: left;
+    padding-left: 100px;
+}
+.buttontexts2 input[type="submit"] {
+    background: #563214;
+    transition: 0.3s;
+}
+.buttontexts2 input:hover {
+    background: #ff5200;
+}
+.teximgblog2 {
+    border-bottom: solid #d2c9c9 1px;
+    border-left: solid #d2c9c9 1px;
+    border-right: solid #d2c9c9 1px;
+    padding: 10px 20px 20px 30px;
+}
+.prolog {
+    position: absolute;
+    top: 120px;
+    left: 35px;
+}
+
+.pro1 {
+    float: left;
+}
+
+.pro1 i {
+    width: 16px;
+    padding: 7px;
+    background: #5959ca;
+    color: white;
+    font-size: 16px;
+    border-radius: 100px;
+	margin-right: 10px;
+	opacity: 0;
+		transition:0.1s;
+}
+.pro1 i:hover {
+    background:white;
+	color:black;
+}
+.pro2 {
+    float: left;
+}
+.pro2 i {
+    width: 16px;
+    padding: 7px;
+    background: #3fbcd8;
+    color: white;
+    font-size: 16px;
+    border-radius: 100px;
+	margin-right: 10px;
+	opacity: 0;
+		transition:0.1s;
+}
+.pro2 i:hover {
+    background:white;
+	color:black;
+}
+.pro3 {
+    float: left;
+}
+.pro3 i {
+    width: 16px;
+    padding: 7px;
+    background: #ff5200;
+    color: white;
+    font-size: 16px;
+    border-radius: 100px;
+	margin-right: 10px;
+	opacity: 0;
+		transition:0.1s;
+}
+.pro3 i:hover {
+    background:white;
+	color:black;
+}
+.pro4 {
+    float: left;
+}
+
+.pro4 i {
+    width: 16px;
+    padding: 7px;
+    background: #7e7eff;
+    color: white;
+    font-size: 16px;
+    border-radius: 100px;
+	opacity: 0;
+	transition:0.1s;
+}
+.pro4 i:hover {
+    background:white;
+	color:black;
+}
+.picimgblogdiv:hover .pro1 i{
+	opacity: 1;
+	transform:translatey(30px);
+	transition-delay: 0.4s;
+}
+.picimgblogdiv:hover .pro2 i{
+	opacity: 1;
+	transform:translatey(30px);
+	transition-delay: 0.3s;
+}
+.picimgblogdiv:hover .pro3 i{
+	opacity: 1;
+	transform:translatey(30px);
+	transition-delay: 0.2s;
+}
+.picimgblogdiv:hover .pro4 i{
+	opacity: 1;
+	transform:translatey(30px);
+	transition-delay: 0.1s;
+	
+}
+section.imgdtadvprojectsection {
+    padding: 80px;
+	border-bottom: 2px solid bisque;
+}
+.pp {
+    width: 1000px;
+    margin: auto;
+    overflow:hidden;
+}
+.sp {
+    width: 310px;
+    height: 250px;
+    position: relative;
+    float:left;
+	margin-right:35px;
+	margin-bottom:35px;
+}
+.mp img {
+    width: 100%;
+    height: 100%;
+}
+.mp: hover.sswp{
+	padding-top:30px;
+	transform: translateX(0px);
+}
+.bwp {font-family: 'Oswald';font-size: small;text-decoration: underline;}
+.wp {
+    padding-left: 35px;
+    position: absolute;
+    width: 275px;
+    color: white;
+    bottom: 0px;
+    left: 0px;
+    top: 165px;
+    background: linear-gradient(
+180deg
+, transparent, #000000bd);
+    transition: 0.3s;
+}
+.swp {
+    font-family: 'Oswald';
+    font-size: larger;
+    padding: 5px 0px 10px 0px;
+}
+.sswp {
+	visibility:hidden;
+    margin-top: 8px;
+    transform: translateX(-35px);
+
+}
+.sswp a {text-decoration: none;font-family: arial;font-size: small;color: white;}
+.sswp i {
+    padding-left: 10px;
+    font-size: small;
+    color: white;
+}
+.sp:hover .wp{
+	top:100px;
+}
+.sp:hover .sswp{
+	visibility:visible;
+	transition: 0.3s;
+    transition-delay: 0.3s;
+    transition-timing-function: cubic-bezier(0.04, 0.13, 0.09, 1.31);
+	transform: translateX(0px);
+}
